@@ -1,8 +1,23 @@
-# React + Vite
+# Health Application - Where medical meets technology.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This application is bootstraped with following stacks.
 
-Currently, two official plugins are available:
+- [Nodejs](https://nodejs.org/en)
+- [ReactJS](https://react.dev/)
+- [ViteJS](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## To clone the application use following link.
+
+<code>https://github.com/saisashreek2692/HealthApp-Frontend.git</code>
+
+## To run the application
+
+- cd healthapp-front
+- npm i
+- npm run dev
+
+## To release the build file
+
+- npm run build
