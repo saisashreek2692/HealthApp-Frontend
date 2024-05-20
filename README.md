@@ -10,8 +10,8 @@ This application is bootstraped with following stacks.
 
 ## To clone the application use following link.
 
- - copy this code (https://github.com/saisashreek2692/HealthApp-Frontend.git), to clone this application.
- - If you're using SSH, try this (git@github.com:saisashreek2692/HealthApp-Frontend.git)
+ - copy this code ``` $ git clone https://github.com/saisashreek2692/HealthApp-Frontend.git ```, to clone this application.
+ - If you're using SSH, try this ``` $ git clone git@github.com:saisashreek2692/HealthApp-Frontend.git ```
 
 ## To run the application
 
