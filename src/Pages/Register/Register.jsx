@@ -26,19 +26,18 @@ const RegisterPage = () => {
             </a>
 
             <h1 className="mt-2 text-2xl font-bold text-gray-900 sm:text-3xl md:text-4xl">
-              Welcome to Squid 🦑
+              Welcome to Medikover Application
             </h1>
 
             <p className="mt-4 leading-relaxed text-gray-500">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi
-              nam dolorum aliquam, quibusdam aperiam voluptatum.
+              Medikover Application where medical meets technology, which helps
+              patient and doctors to know each other for better treatment.
             </p>
           </div>
 
-          <form action="#" className="mt-8 grid grid-cols-6 gap-6">
+          <form className="mt-8 grid grid-cols-6 gap-6">
             <div className="col-span-6 sm:col-span-3">
               <label
-                htmlFor="FirstName"
                 className="block text-sm font-medium text-gray-700"
               >
                 First Name
@@ -46,15 +45,12 @@ const RegisterPage = () => {
 
               <input
                 type="text"
-                id="FirstName"
-                name="first_name"
                 className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-3">
               <label
-                htmlFor="LastName"
                 className="block text-sm font-medium text-gray-700"
               >
                 Last Name
@@ -62,15 +58,12 @@ const RegisterPage = () => {
 
               <input
                 type="text"
-                id="LastName"
-                name="last_name"
                 className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
 
             <div className="col-span-6">
               <label
-                htmlFor="Email"
                 className="block text-sm font-medium text-gray-700"
               >
                 {" "}
@@ -79,15 +72,12 @@ const RegisterPage = () => {
 
               <input
                 type="email"
-                id="Email"
-                name="email"
                 className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-3">
               <label
-                htmlFor="Password"
                 className="block text-sm font-medium text-gray-700"
               >
                 {" "}
@@ -96,15 +86,12 @@ const RegisterPage = () => {
 
               <input
                 type="password"
-                id="Password"
-                name="password"
                 className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
 
             <div className="col-span-6 sm:col-span-3">
               <label
-                htmlFor="PasswordConfirmation"
                 className="block text-sm font-medium text-gray-700"
               >
                 Password Confirmation
@@ -112,18 +99,14 @@ const RegisterPage = () => {
 
               <input
                 type="password"
-                id="PasswordConfirmation"
-                name="password_confirmation"
                 className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
               />
             </div>
 
             <div className="col-span-6">
-              <label htmlFor="MarketingAccept" className="flex gap-4">
+              <label className="flex gap-4">
                 <input
                   type="checkbox"
-                  id="MarketingAccept"
-                  name="marketing_accept"
                   className="size-5 rounded-md border-gray-200 bg-white shadow-sm"
                 />
 
